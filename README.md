@@ -22,8 +22,8 @@
 ## PanoGAN
 
 **[Panorama Generative Adversarial Network for Cross-View Panorama Image Synthesis](https://arxiv.org/abs/2008.04381)**  
-[Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu)<sup>1</sup>, [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>23</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>24</sup>. <br> 
-<sup>1</sup> Guangdong University of Petrochemical Technology, China, <sup>2</sup>University of Trento, Italy, <sup>3</sup>University of Oxford, UK, <sup>4</sup>Huawei Research Ireland, Ireland.<br>
+[Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu)<sup>1</sup>, [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>24</sup>. <br> 
+<sup>1</sup> Guangdong University of Petrochemical Technology, China, <sup>2</sup>University of Trento, Italy.<br>
 Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### Framework
