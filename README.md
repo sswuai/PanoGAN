@@ -27,21 +27,21 @@
 Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### Framework
-<img src='./imgs/panogan_architecture_0001250.jpg' width=1200>
+<img src='./imgs/panogan_architecture_0001250.jpg' width=800>
 
 ### Generator
-<img src='./imgs/G_D_v1.jpg' width=1200>
+<img src='./imgs/G_D_v1.jpg' width=800>
 
 ### Discriminator
-<img src='./imgs/g_d.jpg' width=1200>
+<img src='./imgs/g_d.jpg' width=800>
 
 ### Comparison Results on CVUSA Dataset
 
-<img src='./imgs/cvusa_sota_comparison.jpg' width=1200>
+<img src='./imgs/cvusa_sota_comparison.jpg' width=800>
 
 ### Comparison Results on CVUSA Dataset
 
-<img src='./imgs/op_sota_comparison.jpg' width=1200>
+<img src='./imgs/op_sota_comparison.jpg' width=800>
 
 ### [License](./LICENSE.md)
 
