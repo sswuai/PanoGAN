@@ -28,7 +28,7 @@ Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### Framework
 <img src='./imgs/panogan_architecture_0001250.jpg' width=1200>
-
+<img src='./imgs/G_D_v1.pdf' width=1200>
 ### Framework
 <img src='./imgs/method.jpg' width=1200>
 
