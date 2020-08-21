@@ -76,7 +76,7 @@ To reproduce the results reported in the paper, you need to run experiments with
 Please follow [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) to directly download both Market-1501 and DeepFashion datasets.
 
 ## Generating Images Using Pretrained Model
-### Market-1501
+### PanoGAN trained with 35,548 aerial-panorama image pairs on CVUSA dataset
 ```bash
 cd scripts/
 sh download_bigraphgan_model.sh market
@@ -87,7 +87,7 @@ Then,
 1. Change several parameters in `test_market_pretrained.sh`.
 2. Run `sh test_market_pretrained.sh` for testing.
 
-### DeepFashion
+### PanoGAN tranined on OP dataset
 ```bash
 cd scripts/
 sh download_bigraphgan_model.sh deepfashion
@@ -99,15 +99,15 @@ Then,
 2. Run `sh test_deepfashion_pretrained.sh` for testing.
 
 ## Train and Test New Models
-### Market-1501
-1. Go to the [market_1501](https://github.com/Ha0Tang/BiGraphGAN/tree/master/market_1501) folder. 
+### CVUSA dataset
+1. Go to the [scripts](https://github.com/sswuai/PanoGAN/tree/master/scripts) folder. 
 2. Change several parameters in `train_market.sh`.
 3. Run `sh train_market.sh` for training.
 4. Change several parameters in `test_market.sh`.
 5. Run `sh test_market.sh` for testing.
 
-### DeepFashion
-1. Go to the [deepfashion](https://github.com/Ha0Tang/BiGraphGAN/tree/master/deepfashion) folder. 
+### OP dataset
+1. Go to the [scripts](https://github.com/sswuai/PanoGAN/tree/master/scripts) folder. 
 2. Change several parameters in `train_deepfashion.sh`.
 3. Run `sh train_deepfashion.sh` for training.
 4. Change several parameters in `test_deepfashion.sh`.
@@ -116,23 +116,23 @@ Then,
 ## Download Images Produced by the Authors
 **For your convenience, you can directly download the images produced by the authors for qualitative comparisons in your own papers!!!**
 
-### Market-1501
+### CVUSA dataset
 ```bash
 cd scripts/
 sh download_bigraphgan_result.sh market
 ```
 
-### DeepFashion
+### OP dataset
 ```bash
 cd scripts/
 sh download_bigraphgan_result.sh deepfashion
 ```
 
 ## Evaluation
-We adopt SSIM, mask-SSIM, IS, mask-IS, and PCKh for evaluation of Market-1501. SSIM, IS, PCKh for DeepFashion. Please refer to [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
+We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
  
 ## Acknowledgments
-This source code is inspired by both [Pose-Transfer](https://github.com/tengteng95/Pose-Transfer), [GloRe](https://github.com/facebookresearch/GloRe) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
+This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2pix.git) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
 
 ## Related Projects
 **[SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
@@ -140,7 +140,6 @@ This source code is inspired by both [Pose-Transfer](https://github.com/tengteng
 ## Citation
 If you use this code for your research, please cite our papers.
 
-SelectionGAN
 ```
 @inproceedings{tang2019multi,
   title={Multi-channel attention selection gan with cascaded semantic guidance for cross-view image translation},
@@ -149,12 +148,6 @@ SelectionGAN
   year={2019}
 }
 
-@article{tang2020multi,
-  title={Multi-channel attention selection gans for guided image-to-image translation},
-  author={Tang, Hao and Xu, Dan and Yan, Yan and Corso, Jason J and Torr, Philip HS and Sebe, Nicu},
-  journal={arXiv preprint arXiv:2002.01048},
-  year={2020}
-}
 ```
 
 ## Contributions
