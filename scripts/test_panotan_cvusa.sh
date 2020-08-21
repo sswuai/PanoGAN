@@ -10,9 +10,9 @@ python test.py \
 --results_dir \
 /home/$username/codelab/I2I/panogan_test_results \
 --name \
-panogan6a_cvusa_partial \
+panogan_cvusa \
 --model \
-panoganBaseline6a \
+panoganBaseline5a \
 --netG \
 unet_afl_v5 \
 --netD \
@@ -24,9 +24,9 @@ fpd \
 --direction \
 AtoB \
 --epoch \
-30 \
+latest \
 --dataset_mode \
-panoaligned6 \
+panoaligned4 \
 --norm \
 instance \
 --preprocess \

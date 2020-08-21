@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PanoGAN_Release.iml" filepath="$PROJECT_DIR$/.idea/PanoGAN_Release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PanoGAN.iml" filepath="$PROJECT_DIR$/.idea/PanoGAN.iml" />
     </modules>
   </component>
 </project>

@@ -9,9 +9,9 @@ echo "gpu_ids=$3"
 
 python train.py \
 --dataroot \
-/home/$username/codelab/datasets/opcrossview \
+/home/$username/codelab/datasets/db_crossview_pano_APS_train_all \
 --name \
-panogan_op \
+panogan_cvusa \
 --model  \
 panoganBaseline5a  \
 --netG \
@@ -41,11 +41,11 @@ $gpu_ids \
 --batch_size \
 $batch_size \
 --niter \
-100 \
+15 \
 --niter_decay \
-100 \
+15 \
 --save_epoch_freq \
-20 \
+15 \
 --display_id \
 1 \
 --display_port \
@@ -55,7 +55,7 @@ $batch_size \
 --display_freq \
 20 \
 --display_winsize \
-2048 \
+1024 \
 --loop_count \
 3 \
 --alpha \
