@@ -45,19 +45,17 @@ Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### [License](./LICENSE.md)
 
-Copyright (C) 2019 University of Trento, Italy.
-
 All rights reserved.
 Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) (**Attribution-NonCommercial-ShareAlike 4.0 International**)
 
-The code is released for academic research use only. For commercial use, please contact [hao.tang@unitn.it](hao.tang@unitn.it).
+The code is released for academic research use only. For commercial use, please contact [sswuai@gmail.com](sswuai@gmail.com).
 
 ## Installation
 
 Clone this repo.
 ```bash
-git clone https://github.com/Ha0Tang/BiGraphGAN
-cd BiGraphGAN/
+git clone https://github.com/sswuai/PanoGAN.git
+cd PanoGAN/
 ```
 
 This code requires PyTorch 1.0.0 and python 3.6.9+. Please install the following dependencies:
@@ -71,7 +69,7 @@ This code requires PyTorch 1.0.0 and python 3.6.9+. Please install the following
 * tqdm
 * dominate
 
-To reproduce the results reported in the paper, you need to run experiments on NVIDIA DGX1 with 4 32GB V100 GPUs for DeepFashion, and 1 32GB V100 GPU for Market-1501.
+To reproduce the results reported in the paper, you need to run experiments with at least 1 NVIDIA 11GB 2080Ti GPU.
 
 ## Dataset Preparation
 
