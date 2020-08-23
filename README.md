@@ -28,7 +28,7 @@ Submited to [IEEE Transactions on MultiMedia]. <br>
 <img src='./imgs/panogan_architecture.jpg' width=800>
 
 ### Generator
-<img src='./imgs/Generator_Feedback.jpg' width=800>
+<img src='./imgs/Generator_Feedback.png' width=800>
 
 ### Discriminator
 <img src='./imgs/G_D.jpg' width=800>
