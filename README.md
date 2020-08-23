@@ -21,8 +21,7 @@
 ## PanoGAN
 
 **[PanoGAN for Cross-View Panorama ImageSynthesis](https://arxiv.org/abs/2008.04381)**  
-[Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu), [Hao Tang](http://disi.unitn.it/~hao.tang/), Xiaoyuan Jing, Haifeng Zhao, Jianjun Qian, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and Yan Yan.<br> 
-<!-- <sup>1</sup> Guangdong University of Petrochemical Technology, China, <sup>2</sup>University of Trento, Italy.<br> -->
+[Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu), [Hao Tang](http://disi.unitn.it/~hao.tang/), [Xiaoyuan Jing](https://scholar.google.com/citations?user=2IInQAgAAAAJ&hl=en), [Haifeng Zhao](https://scholar.google.com/citations?hl=en&user=EOMB0c4AAAAJ&view_op=list_works&sortby=pubdate), [Jianjun Qian](https://scholar.google.com/citations?hl=en&user=oLLDUM0AAAAJ), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en).<br>
 Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### Framework
