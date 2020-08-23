@@ -1,8 +1,8 @@
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/BiGraphGAN/blob/master/LICENSE.md)
+[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/PanoGAN/blob/master/LICENSE.md)
 ![Python 3.6](https://img.shields.io/badge/python-3.6.9-green.svg)
 ![Packagist](https://img.shields.io/badge/Pytorch-1.0.0-red.svg)
-![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/BiGraphGAN)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/BiGraphGAN/graphs/commit-activity))
+![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/PanoGAN)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/PanoGAN/graphs/commit-activity))
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
@@ -21,9 +21,9 @@
 
 ## PanoGAN
 
-**[Panorama Generative Adversarial Network for Cross-View Panorama Image Synthesis](https://arxiv.org/abs/2008.04381)**  
-[Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu)<sup>1</sup>, [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>2</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>24</sup>. <br> 
-<sup>1</sup> Guangdong University of Petrochemical Technology, China, <sup>2</sup>University of Trento, Italy.<br>
+**[PanoGAN for Cross-View Panorama ImageSynthesis](https://arxiv.org/abs/2008.04381)**  
+[Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu), [Hao Tang](http://disi.unitn.it/~hao.tang/), Xiaoyuan Jing, Haifeng Zhao, Jianjun Qian, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and Yan Yan.<br> 
+<!-- <sup>1</sup> Guangdong University of Petrochemical Technology, China, <sup>2</sup>University of Trento, Italy.<br> -->
 Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### Framework
