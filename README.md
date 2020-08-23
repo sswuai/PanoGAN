@@ -1,8 +1,8 @@
-[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/PanoGAN/blob/master/LICENSE.md)
+[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/sswuai/PanoGAN/blob/master/LICENSE.md)
 ![Python 3.6](https://img.shields.io/badge/python-3.6.9-green.svg)
 ![Packagist](https://img.shields.io/badge/Pytorch-1.0.0-red.svg)
-![Last Commit](https://img.shields.io/github/last-commit/Ha0Tang/PanoGAN)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/Ha0Tang/PanoGAN/graphs/commit-activity))
+![Last Commit](https://img.shields.io/github/last-commit/sswuai/PanoGAN)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/sswuai/PanoGAN/graphs/commit-activity))
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
@@ -20,18 +20,18 @@
 
 ## PanoGAN
 
-**[PanoGAN for Cross-View Panorama ImageSynthesis](https://arxiv.org/abs/2008.04381)**  
+**[PanoGAN for Cross-View Panorama Image Synthesis](https://arxiv.org/abs/2008.04381)**  
 [Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu), [Hao Tang](http://disi.unitn.it/~hao.tang/), [Xiaoyuan Jing](https://scholar.google.com/citations?user=2IInQAgAAAAJ&hl=en), [Haifeng Zhao](https://scholar.google.com/citations?hl=en&user=EOMB0c4AAAAJ&view_op=list_works&sortby=pubdate), [Jianjun Qian](https://scholar.google.com/citations?hl=en&user=oLLDUM0AAAAJ), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en).<br>
 Submited to [IEEE Transactions on MultiMedia]. <br>
 
 ### Framework
-<img src='./imgs/panogan_architecture_0001250.jpg' width=800>
+<img src='./imgs/panogan_architecture.jpg' width=800>
 
 ### Generator
-<img src='./imgs/G_D_v1.jpg' width=800>
+<img src='./imgs/Generator_Feedback.jpg' width=800>
 
 ### Discriminator
-<img src='./imgs/g_d.jpg' width=800>
+<img src='./imgs/G_D.jpg' width=800>
 
 ### Comparison Results on CVUSA Dataset
 
