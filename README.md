@@ -31,7 +31,7 @@ Submited to [IEEE Transactions on MultiMedia]. <br>
 <img src='./imgs/Generator_Feedback.png' width=800>
 
 ### Discriminator
-<img src='./imgs/G_D.jpg' width=800>
+<img src='./imgs/G_D.jpeg' width=800>
 
 ### Comparison Results on CVUSA Dataset
 
