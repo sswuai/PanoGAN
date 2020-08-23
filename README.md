@@ -12,7 +12,6 @@
   - [Dataset Preparation](#Dataset-Preparation)
   - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
   - [Train and Test New Models](#Train-and-Test-New-Models)
-  - [Download Images Produced by the Authors](#Download-Images-Produced-by-the-Authors)
   - [Evaluation](#Evaluation)
   - [Acknowledgments](#Acknowledgments)
   - [Related Projects](#Related-Projects)
@@ -112,21 +111,6 @@ Then,
 3. Run `sh train_deepfashion.sh` for training.
 4. Change several parameters in `test_deepfashion.sh`.
 5. Run `sh test_deepfashion.sh` for testing.
-
-## Download Images Produced by the Authors
-**For your convenience, you can directly download the images produced by the authors for qualitative comparisons in your own papers!!!**
-
-### CVUSA dataset
-```bash
-cd scripts/
-sh download_bigraphgan_result.sh market
-```
-
-### OP dataset
-```bash
-cd scripts/
-sh download_bigraphgan_result.sh deepfashion
-```
 
 ## Evaluation
 We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
