@@ -33,11 +33,11 @@ Submited to [IEEE Transactions on MultiMedia]. <br>
 ### Discriminator
 <img src='./imgs/G_D_v1.jpg' width=800>
 
-### Comparison Results on CVUSA Dataset
+### Comparison Results on the CVUSA Dataset
 
 <img src='./imgs/cvusa_sota_comparison.jpg' width=800>
 
-### Comparison Results on CVUSA Dataset
+### Comparison Results on the OP Dataset
 
 <img src='./imgs/op_sota_comparison.jpg' width=800>
 
