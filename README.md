@@ -22,7 +22,7 @@
 
 **[PanoGAN for Cross-View Panorama Image Synthesis](https://arxiv.org/abs/2008.04381)**  
 [Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu), [Hao Tang](http://disi.unitn.it/~hao.tang/), [Xiaoyuan Jing](https://scholar.google.com/citations?user=2IInQAgAAAAJ&hl=en), [Haifeng Zhao](https://scholar.google.com/citations?hl=en&user=EOMB0c4AAAAJ&view_op=list_works&sortby=pubdate), [Jianjun Qian](https://scholar.google.com/citations?hl=en&user=oLLDUM0AAAAJ), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en).<br>
-Submited to [IEEE Transactions on MultiMedia]. <br>
+Submited to IEEE Transactions on Multimedia. <br>
 
 ### Framework
 <img src='./imgs/panogan_architecture.jpg' width=800>
@@ -63,11 +63,9 @@ This code requires PyTorch 1.0.0 and python 3.6.9+. Please install the following
 * scipy
 * scikit-image
 * pillow
-* pandas
-* tqdm
 * dominate
 
-To reproduce the results reported in the paper, you need to run experiments with at least 1 NVIDIA 11GB 2080Ti GPU.
+To reproduce the results reported in the paper, you need to run experiments with at least 1 NVIDIA 2080Ti GPU.
 
 ## Dataset Preparation
 
