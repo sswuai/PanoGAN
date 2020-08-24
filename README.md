@@ -97,20 +97,20 @@ Then,
 ## Train and Test New Models
 ### CVUSA dataset
 1. Go to the [scripts](https://github.com/sswuai/PanoGAN/tree/master/scripts) folder. 
-2. Change several parameters in `train_market.sh`.
-3. Run `sh train_market.sh` for training.
-4. Change several parameters in `test_market.sh`.
-5. Run `sh test_market.sh` for testing.
+2. Change several parameters in `train_panogan_cvusa.sh` (or `train_panogan_cvusa_partial.sh`).
+3. Run `sh train_panogan_cvusa.sh` (or `sh train_panogan_cvusa_partial.sh`)  for training.
+4. Change several parameters in `test_panogan_cvusa.sh`.
+5. Run `sh test_panogan_cvusa.sh` for testing.
 
 ### OP dataset
 1. Go to the [scripts](https://github.com/sswuai/PanoGAN/tree/master/scripts) folder. 
-2. Change several parameters in `train_deepfashion.sh`.
-3. Run `sh train_deepfashion.sh` for training.
-4. Change several parameters in `test_deepfashion.sh`.
-5. Run `sh test_deepfashion.sh` for testing.
+2. Change several parameters in `train_panogan_op.sh`.
+3. Run `sh train_panogan_op.sh` for training.
+4. Change several parameters in `test_panogan_op.sh`.
+5. Run `sh test_panogan_op.sh` for testing.
 
 ## Evaluation
-We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/tengteng95/Pose-Transfer#evaluation) for more details.
+We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/sswuai/PanoGAN/tree/master/Evaluation) for more details.
  
 ## Acknowledgments
 This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2pix.git) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
