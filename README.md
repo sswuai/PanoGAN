@@ -75,27 +75,17 @@ Please download the dataset OP from google drive: [Training sample set](https://
 
 
 ## Generating Images Using Pretrained Model
-### PanoGAN trained with 35,548 aerial-panorama image pairs on CVUSA dataset
-```bash
-cd scripts/
-sh download_bigraphgan_model.sh market
-cd ..
-cd market_1501/
-```
-Then,
-1. Change several parameters in `test_market_pretrained.sh`.
-2. Run `sh test_market_pretrained.sh` for testing.
+### PanoGAN tranined on CVUSA dataset with all training samples
+1. Download the model trained on CVUSA dataset from [PanoGAN model on CVUSA]().
+2. Unzip the file to checkpoints/
+3. Change several parameters in `test_panogan_cvusa.sh`.
+4. Run `sh test_panogan_cvusa.sh` for testing.
 
 ### PanoGAN tranined on OP dataset
-```bash
-cd scripts/
-sh download_bigraphgan_model.sh deepfashion
-cd ..
-cd deepfashion/
-```
-Then,
-1. Change several parameters in `test_deepfashion_pretrained.sh`.
-2. Run `sh test_deepfashion_pretrained.sh` for testing.
+1. Download the model trained on OP dataset from [PanoGAN model on OP]().
+2. Unzip the file to checkpoints/
+3. Change several parameters in `test_panogan_op.sh`.
+4. Run `sh test_panogan_op.sh` for testing.
 
 ## Train and Test New Models
 ### CVUSA dataset
