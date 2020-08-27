@@ -11,9 +11,9 @@ echo "gpu_ids=$gpu_ids"
 
 python train.py \
 --dataroot \
-/home/$username/codelab/datasets/db_crossview_pano_APS_train \
+/home/$username/codelab/datasets/db_crossview_pano_APS_train_partial \
 --name \
-panogan_cvusa_feedback_$loop_count \
+panogan_cvusa_partial_feedback_$loop_count \
 --model  \
 panogan  \
 --netG \

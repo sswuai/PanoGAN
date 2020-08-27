@@ -12,7 +12,7 @@ python test.py \
 --name \
 panogan_op \
 --model \
-panoganBaseline5a \
+panogan \
 --netG \
 unet_afl_v5 \
 --netD \
@@ -26,7 +26,7 @@ AtoB \
 --epoch \
 latest \
 --dataset_mode \
-panoaligned4 \
+panoaligned \
 --norm \
 instance \
 --preprocess \

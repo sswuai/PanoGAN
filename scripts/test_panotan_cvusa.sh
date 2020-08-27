@@ -1,8 +1,7 @@
 set -ex
 username=$1
-gpu_ids=$2
-
-echo "username=$1"
+loop_count=$2
+gpu_ids=$3
 
 python test.py \
 --dataroot \
@@ -10,9 +9,9 @@ python test.py \
 --results_dir \
 /home/$username/codelab/I2I/panogan_test_results \
 --name \
-panogan_cvusa \
+panogan_cvusa_partial_feedback_$loop_count \
 --model \
-panoganBaseline5a \
+panogan \
 --netG \
 unet_afl_v5 \
 --netD \
@@ -26,7 +25,7 @@ AtoB \
 --epoch \
 latest \
 --dataset_mode \
-panoaligned4 \
+panoaligned \
 --norm \
 instance \
 --preprocess \
@@ -35,7 +34,7 @@ none \
 10000000 \
 --eval \
 --loop_count \
-3 \
+$loop_count \
 --alpha \
 0.5 0.5 0.5 0.5 0.5 \
 --gpu_ids \

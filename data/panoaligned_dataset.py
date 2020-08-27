@@ -45,16 +45,21 @@ class PanoAlignedDataset(BaseDataset):
         w, h = ABC.size
         w1 = int(256)
         w2 = int(1024)
-        A = ABC.crop((0, 0, w1, h)).resize((self.opt.load_size, self.opt.load_size), Image.BICUBIC)
+        A_tmp = ABC.crop((0,0,w1,h))
+        #A_tmp = Image.fromarray(ABC.crop((0, 0, w1, h)))
         B = ABC.crop((w1, 0, w1 + w2, h))
         D = ABC.crop((w1 + w2, 0, w1 + w2 + w2, h))
+        A = transforms.ToTensor()(A_tmp)
+        for i in range(1, 4):
+            #A.append(A_tmp.rotate(90*i))
+            A = torch.cat((A, transforms.ToTensor()(A_tmp.rotate(90*i))),2)
 
-        A = transforms.ToTensor()(A)
+        #A = transforms.ToTensor()(A)
         B = transforms.ToTensor()(B)
         D = transforms.ToTensor()(D)
 
-        h_offset = random.randint(0, max(0, self.opt.load_size - self.opt.crop_size - 1))
-        A = A[:, h_offset:h_offset + self.opt.crop_size, h_offset:h_offset + self.opt.crop_size]
+        #h_offset = random.randint(0, max(0, self.opt.load_size - self.opt.crop_size - 1))
+        #A = A[:, h_offset:h_offset + self.opt.crop_size, h_offset:h_offset + self.opt.crop_size]
 
         A = transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))(A)
         B = transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))(B)
@@ -66,7 +71,7 @@ class PanoAlignedDataset(BaseDataset):
         else:
             input_nc = self.opt.input_nc
             output_nc = self.opt.output_nc
-
+        """
         if (not self.opt.no_flip) and random.random() < 0.5:
             idx = [i for i in range(A.size(2) - 1, -1, -1)]
             idx = torch.LongTensor(idx)
@@ -75,7 +80,7 @@ class PanoAlignedDataset(BaseDataset):
             idx = torch.LongTensor(idx)
             B = B.index_select(2, idx)
             D = D.index_select(2, idx)
-
+        """
         if input_nc == 1:  # RGB to gray
             tmp = A[0, ...] * 0.299 + A[1, ...] * 0.587 + A[2, ...] * 0.114
             A = tmp.unsqueeze(0)

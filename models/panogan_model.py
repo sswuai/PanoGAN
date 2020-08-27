@@ -2,9 +2,9 @@ import torch
 from .base_model import BaseModel
 from . import networks
 
-class panoganBaseline5cModel(BaseModel):
+class panoganModel(BaseModel):
     """
-        Xseq + Adversarial Feedback Loop
+        PanoGAN model
     """
     @staticmethod
     def modify_commandline_options(parser, is_train=True):
@@ -136,14 +136,6 @@ class panoganBaseline5cModel(BaseModel):
             # real seg
             real_AD = torch.cat((self.img_A, self.img_D), 1)
             pred_real_seg, embed_real_seg, _ = self.netD_seg(real_AD)
-
-            num_pred = len(pred_fake_img)
-            for i in range(num_pred):
-                self.loss_D_fake_img += (self.criterionGAN(pred_fake_img[i], self.false_label) / num_pred)
-                self.loss_D_real_img += (self.criterionGAN(pred_real_img[i], self.real_label) / num_pred)
-                self.loss_D_fake_seg += (self.criterionGAN(pred_fake_seg[i], self.false_label) / num_pred)
-                self.loss_D_real_seg += (self.criterionGAN(pred_real_seg[i], self.real_label) / num_pred)
-
             # fuse prediction map
             pred_embed_fake = [pred_fake_img, embed_fake_img, pred_fake_seg, embed_fake_seg]
             pred_embed_real = [pred_real_img, embed_real_img, pred_real_seg, embed_real_seg]

@@ -13,7 +13,7 @@ python train.py \
 --name \
 panogan_op \
 --model  \
-panoganBaseline5a  \
+panogan  \
 --netG \
 unet_afl_v5 \
 --netD \
@@ -31,7 +31,7 @@ AtoB \
 --lambda_L1_seg \
 100 \
 --dataset_mode \
-panoaligned4 \
+panoaligned \
 --preprocess \
 none \
 --gan_mode \
