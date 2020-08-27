@@ -20,7 +20,8 @@
 ## PanoGAN
 
 **[PanoGAN for Cross-View Panorama Image Synthesis](https://arxiv.org/abs/2008.04381)**  
-[Hao Tang](http://disi.unitn.it/~hao.tang/), [Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu), [Xiaoyuan Jing](https://scholar.google.com/citations?user=2IInQAgAAAAJ&hl=en), [Haifeng Zhao](https://scholar.google.com/citations?hl=en&user=EOMB0c4AAAAJ&view_op=list_works&sortby=pubdate), [Jianjun Qian](https://scholar.google.com/citations?hl=en&user=oLLDUM0AAAAJ), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en).<br>
+[Hao Tang](http://disi.unitn.it/~hao.tang/)\*, [Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu)\*, [Xiaoyuan Jing](https://scholar.google.com/citations?user=2IInQAgAAAAJ&hl=en), [Haifeng Zhao](https://scholar.google.com/citations?hl=en&user=EOMB0c4AAAAJ&view_op=list_works&sortby=pubdate), [Jianjun Qian](https://scholar.google.com/citations?hl=en&user=oLLDUM0AAAAJ), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en).<br>
+(* equal contributions) <br>
 Submited to IEEE Transactions on Multimedia. <br>
 
 ### Framework
@@ -102,7 +103,7 @@ Please download the dataset OP from google drive: [Training sample set](https://
 5. Run `sh test_panogan_op.sh` for testing.
 
 ## Evaluation
-We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/sswuai/PanoGAN/tree/master/Evaluation) for more details.
+We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/sswuai/PanoGAN/tree/master/evaluation) for more details.
  
 ## Acknowledgments
 This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2pix.git) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
