@@ -69,7 +69,10 @@ To reproduce the results reported in the paper, you need to run experiments with
 
 ## Dataset Preparation
 
-Please follow [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN/tree/master/person_transfer#data-preperation) to directly download both Market-1501 and DeepFashion datasets.
+Please download the dataset CVUSA from google drive: [Training sample set for ablation study](https://drive.google.com/file/d/1KGAEbWL3q9Fi5axzaf_CROp92KZ_PVjS/view?usp=sharing), [Test sample set](https://drive.google.com/file/d/1_BZ1D5Jw0CFjLlPXRURhRRWJLms_M3Ho/view?usp=sharing).
+
+Please download the dataset OP from google drive: [Training sample set](https://drive.google.com/file/d/1Gf7v27PFV4Gu7I23yuhSiu3pixiIukk4/view?usp=sharing), [Test sample set](https://drive.google.com/file/d/1YZkGOZvcfpn4A9sEwecmzK6p_knOISjA/view?usp=sharing).
+
 
 ## Generating Images Using Pretrained Model
 ### PanoGAN trained with 35,548 aerial-panorama image pairs on CVUSA dataset
