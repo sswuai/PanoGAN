@@ -102,7 +102,7 @@ Please download the dataset OP from google drive: [Training sample set](https://
 5. Run `sh test_panogan_op.sh` for testing.
 
 ## Evaluation
-We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/sswuai/PanoGAN/tree/master/Evaluation) for more details.
+We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for evaluation of all the involved methods. Please refer to [Evaluation](https://github.com/sswuai/PanoGAN/tree/master/evaluation) for more details.
  
 ## Acknowledgments
 This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2pix.git) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
