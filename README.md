@@ -111,18 +111,18 @@ This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2p
 ## Related Projects
 **[SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
-## Citation
-If you use this code for your research, please cite our papers.
-
-```
-@inproceedings{tang2019multi,
-  title={Multi-channel attention selection gan with cascaded semantic guidance for cross-view image translation},
-  author={Tang, Hao and Xu, Dan and Sebe, Nicu and Wang, Yanzhi and Corso, Jason J and Yan, Yan},
-  booktitle={CVPR},
-  year={2019}
-}
-
-```
+;## Citation
+;If you use this code for your research, please cite our papers.
+;
+;```
+;@inproceedings{tang2019multi,
+;  title={Multi-channel attention selection gan with cascaded semantic guidance for cross-view image translation},
+;  author={Tang, Hao and Xu, Dan and Sebe, Nicu and Wang, Yanzhi and Corso, Jason J and Yan, Yan},
+;  booktitle={CVPR},
+;  year={2019}
+;}
+;
+;```
 
 ## Contributions
 If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Songsong Wu ([sswuai@gmail.com](sswuai@gmail.com)).
