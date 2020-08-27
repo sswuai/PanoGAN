@@ -91,8 +91,8 @@ Please download the dataset OP from google drive: [Training sample set](https://
 ## Train and Test New Models
 ### CVUSA dataset
 1. Go to the [scripts](https://github.com/sswuai/PanoGAN/tree/master/scripts) folder. 
-2. Change several parameters in `train_panogan_cvusa.sh` (or `train_panogan_cvusa_partial.sh`).
-3. Run `sh train_panogan_cvusa.sh` (or `sh train_panogan_cvusa_partial.sh`)  for training.
+2. Change several parameters in `train_panogan_cvusa.sh` (or `train_panogan_cvusa_ablation_study.sh`).
+3. Run `sh train_panogan_cvusa.sh` (or `sh train_panogan_cvusa_ablation_study.sh`)  for training.
 4. Change several parameters in `test_panogan_cvusa.sh`.
 5. Run `sh test_panogan_cvusa.sh` for testing.
 
