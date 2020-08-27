@@ -15,7 +15,6 @@
   - [Evaluation](#Evaluation)
   - [Acknowledgments](#Acknowledgments)
   - [Related Projects](#Related-Projects)
-  - [Citation](#Citation)
   - [Contributions](#Contributions)
 
 ## PanoGAN
