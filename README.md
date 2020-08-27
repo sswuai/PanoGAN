@@ -56,14 +56,15 @@ git clone https://github.com/sswuai/PanoGAN.git
 cd PanoGAN/
 ```
 
-This code requires PyTorch 1.0.0 and python 3.6.9+. Please install the following dependencies:
-* pytorch 1.0.0
-* torchvision
-* numpy
-* scipy
-* scikit-image
-* pillow
-* dominate
+This code requires PyTorch 1.0.0 and python 3.6.9+. Please install dependencies by
+```
+pip install -r requirements.txt (for pip users)
+```
+or
+```
+./scripts/conda_deps.sh (for Conda users)
+```
+
 
 To reproduce the results reported in the paper, you need to run experiments with at least 1 NVIDIA 2080Ti GPU.
 
@@ -90,8 +91,8 @@ Please download the dataset OP from google drive: [Training sample set](https://
 ## Train and Test New Models
 ### CVUSA dataset
 1. Go to the [scripts](https://github.com/sswuai/PanoGAN/tree/master/scripts) folder. 
-2. Change several parameters in `train_panogan_cvusa.sh` (or `train_panogan_cvusa_partial.sh`).
-3. Run `sh train_panogan_cvusa.sh` (or `sh train_panogan_cvusa_partial.sh`)  for training.
+2. Change several parameters in `train_panogan_cvusa.sh` (or `train_panogan_cvusa_ablation_study.sh`).
+3. Run `sh train_panogan_cvusa.sh` (or `sh train_panogan_cvusa_ablation_study.sh`)  for training.
 4. Change several parameters in `test_panogan_cvusa.sh`.
 5. Run `sh test_panogan_cvusa.sh` for testing.
 
