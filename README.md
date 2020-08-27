@@ -28,10 +28,10 @@ Submited to IEEE Transactions on Multimedia. <br>
 <img src='./imgs/panogan_architecture.jpg' width=800>
 
 ### Generator
-<img src='./imgs/Generator_Feedback.png' width=800>
+<img src='./imgs/Generator_Feedback.jpg' width=800>
 
 ### Discriminator
-<img src='./imgs/G_D_v1.jpg' width=800>
+<img src='./imgs/Discrimination.jpg' width=800>
 
 ### Comparison Results on the CVUSA Dataset
 
