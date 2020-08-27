@@ -75,14 +75,14 @@ Please download the dataset OP from google drive: [Training sample set](https://
 
 
 ## Generating Images Using Pretrained Model
-### PanoGAN tranined on CVUSA dataset with all training samples
+### PanoGAN model tranined on CVUSA dataset with all training samples
 1. Download the model trained on CVUSA dataset from [PanoGAN model on CVUSA]().
 2. Unzip the file to checkpoints/
 3. Change several parameters in `test_panogan_cvusa.sh`.
 4. Run `sh test_panogan_cvusa.sh` for testing.
 
-### PanoGAN tranined on OP dataset
-1. Download the model trained on OP dataset from [PanoGAN model on OP]().
+### PanoGAN model tranined on OP dataset
+1. Download the model trained on OP dataset from [PanoGAN model on OP](https://drive.google.com/file/d/13zFb9vYnFUkqvN40g3SpUkUUhooVrXfA/view?usp=sharing).
 2. Unzip the file to checkpoints/
 3. Change several parameters in `test_panogan_op.sh`.
 4. Run `sh test_panogan_op.sh` for testing.
