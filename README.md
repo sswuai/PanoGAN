@@ -19,7 +19,7 @@
 
 ## PanoGAN
 
-**[PanoGAN for Cross-View Panorama Image Synthesis](https://arxiv.org/abs/2008.04381)**  
+**[Cross-View Panorama Image Synthesis]()**  
 [Hao Tang](http://disi.unitn.it/~hao.tang/)\*, [Songsong Wu](https://www.researchgate.net/profile/Songsong_Wu)\*, [Xiaoyuan Jing](https://scholar.google.com/citations?user=2IInQAgAAAAJ&hl=en), [Haifeng Zhao](https://scholar.google.com/citations?hl=en&user=EOMB0c4AAAAJ&view_op=list_works&sortby=pubdate), [Jianjun Qian](https://scholar.google.com/citations?hl=en&user=oLLDUM0AAAAJ), [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en), and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en).<br>
 (* equal contributions) <br>
 Submited to IEEE Transactions on Multimedia. <br>
