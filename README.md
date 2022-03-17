@@ -118,7 +118,7 @@ We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for 
 This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2pix.git) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
 
 ## Related Projects
-**[SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[CrossMLP](https://github.com/Amazingren/CrossMLP) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
 
 ## Contributions
