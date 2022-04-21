@@ -118,8 +118,17 @@ We adopt Prediction Accuracy, Inception Score, KL Score, SSIM, PSNR, and SD for 
 This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2pix.git) and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN). 
 
 ## Related Projects
-**[CrossMLP](https://github.com/Amazingren/CrossMLP) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+**[CrossMLP](https://github.com/Amazingren/CrossMLP) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [DPGAN](https://github.com/Ha0Tang/DPGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
+## Citaion
+```
+@article{wu2022cross,
+  title={Cross-View Panorama Image Synthesis},
+  author={Wu, Songsong and Tang, Hao and Jing, Xiao-Yuan and Zhao, Haifeng and Qian, Jianjun and Sebe, Nicu and Yan, Yan},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2022}
+}
+```
 
 ## Contributions
 If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Songsong Wu ([sswuai@gmail.com](sswuai@gmail.com)).
