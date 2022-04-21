@@ -120,7 +120,7 @@ This source code is inspired by both [Pix2Pix](https://github.com/phillipi/pix2p
 ## Related Projects
 **[CrossMLP](https://github.com/Amazingren/CrossMLP) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [LGGAN](https://github.com/Ha0Tang/LGGAN) | [DAGAN](https://github.com/Ha0Tang/DAGAN) | [DPGAN](https://github.com/Ha0Tang/DPGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
 
-## Citaion
+## Citation
 ```
 @article{wu2022cross,
   title={Cross-View Panorama Image Synthesis},
